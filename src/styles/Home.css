@@ -1,0 +1,93 @@
+
+.home {
+    width: 100%;
+    align-items: center;
+    font-family: "Arial", sans-serif;
+   
+  }
+  
+  .about {
+    width: 100%;
+    height: calc(100vh - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: black;
+    color: #f0f0f0;
+  }
+  
+  .about h2 {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 80px;
+    color: #e9d35b;
+    height: 50px;
+  }
+  
+  .about .prompt {
+    width: 40%;
+    font-size: 30px;
+    
+  }
+  .prompt svg {
+    font-size: 60px;
+    margin: 5px;
+    color: white;
+    cursor: prompt;
+  }
+  
+ 
+   .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    overflow: hidden;
+  }
+   .card3 :hover{
+    box-shadow: 5px 10px 10px 1px rgba(0,0,0,0.253)
+  }
+   .card1 :hover{
+    box-shadow: 5px 10px 10px 1px rgba(0,0,0,0.253)
+  }
+  .card2 :hover{
+    box-shadow: 5px 10px 10px 1px rgba(0,0,0,0.253)
+  }
+  .cards h3{
+    color: crimson;
+  }
+  .cards p{
+    font-weight: bold;
+  }
+  @media only screen and (max-width: 600px) {
+    .cards {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+     .cards .card2  {
+      margin-top: 30px;
+
+    }
+    .cards .card3  {
+      margin-top: 30px;
+
+    }
+    
+  }
+  
+  .card-img {
+    height: 200px;
+    transform: scale(1);
+    overflow: hidden;
+  }
+  /* .card-img:hover {
+    transform: scale(1.6);
+    overflow: hidden;
+  } */
+  
+   
+
+
+  
