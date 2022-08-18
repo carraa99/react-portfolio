@@ -24,6 +24,7 @@ function Home() {
             <TelegramIcon />
           </a>
           <a href="https://github.com/carraa99/">
+
             <GithubIcon />
           </a>
         </div>
@@ -34,7 +35,9 @@ function Home() {
           <Container>
             <div className="card1">
               <Card style={{ width: "18rem" }}>
+
                 <Card.Img className="card-img" variant="top" src={frontend} />
+
 
                 <Card.Body>
                   <Card.Title>
@@ -55,7 +58,11 @@ function Home() {
           <Container>
             <div className="card2">
               <Card style={{ width: "18rem" }}>
+
                 <Card.Img className="card-img" variant="top" src={backend} />
+
+               
+
                 <Card.Body>
                   <Card.Title>
                     <h3>
@@ -65,6 +72,9 @@ function Home() {
                   <Card.Text>
                     <p>NodeJS ExpressJS MySQL MongoDB PHP</p>
                   </Card.Text>
+
+
+
                 </Card.Body>
               </Card>
             </div>
@@ -72,7 +82,9 @@ function Home() {
           <Container>
             <div className="card3">
               <Card style={{ width: "18rem" }}>
+
                 <Card.Img className="card-img" variant="top" src={planguages} />
+
                 <Card.Body>
                   <br />
                   <br />
@@ -85,12 +97,35 @@ function Home() {
                   <Card.Text>
                     <p>JavaScript Java Python C C++</p>
                   </Card.Text>
+ 
                 </Card.Body>
               </Card>
             </div>
           </Container>
         </div>
       </Container>
+
+      {/* <div className="skills">
+        <h1> Skills</h1>
+        <ol className="list">
+          <li className="item">
+            <h2> Front-End</h2>
+            <span>
+              HTML, CSS, ReactJS, BootStrap, MaterialUI, React-Bootstrap,
+              Flutter
+            </span>
+          </li>
+          <li className="item">
+            <h2>Back-End</h2>
+            <span>NodeJS, ExpressJS, MySQL, MongoDB</span>
+          </li>
+          <li className="item">
+            <h2>Languages</h2>
+            <span>JavaScript, Java, Python, C, C++</span>
+          </li>
+        </ol>
+      </div> */}
+
     </div>
   );
 }
