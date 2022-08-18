@@ -24,7 +24,7 @@ function Home() {
             <TelegramIcon />
           </a>
           <a href="https://github.com/carraa99/">
-            {" "}
+
             <GithubIcon />
           </a>
         </div>
@@ -35,7 +35,10 @@ function Home() {
           <Container>
             <div className="card1">
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={frontend} />
+
+                <Card.Img className="card-img" variant="top" src={frontend} />
+
+
                 <Card.Body>
                   <Card.Title>
                     <h3>
@@ -55,7 +58,11 @@ function Home() {
           <Container>
             <div className="card2">
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={backend} />
+
+                <Card.Img className="card-img" variant="top" src={backend} />
+
+               
+
                 <Card.Body>
                   <Card.Title>
                     <h3>
@@ -65,7 +72,9 @@ function Home() {
                   <Card.Text>
                     <p>NodeJS ExpressJS MySQL MongoDB PHP</p>
                   </Card.Text>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
+
+
+
                 </Card.Body>
               </Card>
             </div>
@@ -73,7 +82,9 @@ function Home() {
           <Container>
             <div className="card3">
               <Card style={{ width: "18rem" }}>
-                <Card.Img variant="top" src={planguages} />
+
+                <Card.Img className="card-img" variant="top" src={planguages} />
+
                 <Card.Body>
                   <br />
                   <br />
@@ -86,13 +97,14 @@ function Home() {
                   <Card.Text>
                     <p>JavaScript Java Python C C++</p>
                   </Card.Text>
-                  {/* <Button variant="primary">Go somewhere</Button> */}
+ 
                 </Card.Body>
               </Card>
             </div>
           </Container>
         </div>
       </Container>
+
       {/* <div className="skills">
         <h1> Skills</h1>
         <ol className="list">
@@ -113,6 +125,7 @@ function Home() {
           </li>
         </ol>
       </div> */}
+
     </div>
   );
 }

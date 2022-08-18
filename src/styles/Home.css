@@ -1,8 +1,9 @@
+
 .home {
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-    /* z */
+
   }
   
   .about {
@@ -36,31 +37,60 @@
     cursor: prompt;
   }
   
-  .skills {
-    font-size: 35px;
-    width: 100%;
+
+ 
+   .cards{
     display: flex;
     justify-content: center;
-    flex-direction: column;
     align-items: center;
-    background-color: lightGray;
+    text-align: center;
+    overflow: hidden;
   }
-  
-  .skills h1 {
-    color: #3e497a;
+   .card3 :hover{
+    box-shadow: 5px 10px 10px 1px rgba(0,0,0,0.253)
   }
-  .skills h2{
-    color: black;
+   .card1 :hover{
+    box-shadow: 5px 10px 10px 1px rgba(0,0,0,0.253)
+  }
+  .card2 :hover{
+    box-shadow: 5px 10px 10px 1px rgba(0,0,0,0.253)
+  }
+  .cards h3{
+    color: crimson;
+  }
+  .cards p{
     font-weight: bold;
   }
-  .skills .list {
-    list-style: none;
-    width: 60%;
+  @media only screen and (max-width: 600px) {
+    .cards {
+      display: flex;
+      flex-direction: column;
+      margin-top: 20px;
+    }
+     .cards .card2  {
+      margin-top: 30px;
+
+    }
+    .cards .card3  {
+      margin-top: 30px;
+
+    }
+    
   }
   
-  .list span {
-    font-size: 20px;
+  .card-img {
+    height: 200px;
+    transform: scale(1);
+    overflow: hidden;
   }
+  /* .card-img:hover {
+    transform: scale(1.6);
+    overflow: hidden;
+  } */
+  
+   
+
+
   
   @media only screen and (max-width: 600px) {
     .about h2 {
@@ -73,17 +103,7 @@
       width: 80%;
     }
   
-    .skills {
-      text-align: center;
-    }
-    .list {
-      padding: 0;
-    }
-  
-    .skills h2 {
-      font-size: 30px;
-    }
-  }
+    
   .cards{
     display: flex;
     justify-content: center;
@@ -96,4 +116,5 @@
   .cards p{
     font-weight: bold;
   }
+
   
