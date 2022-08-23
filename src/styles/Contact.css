@@ -97,6 +97,7 @@ body, html, .App, #root, .auth-wrapper {
   }
   .form-label input {
     margin-left: 8%;
+    height: 40px;
   }
   .form-label .input-subject {
     margin-left:5%;
@@ -112,7 +113,7 @@ body, html, .App, #root, .auth-wrapper {
 @media only screen and (max-width: 600px) {
   .my-container {
     
-    min-height: 120vh;
+    min-height: 100vh;
     display: flex;
     flex-direction: column;
     font-weight: 50;
@@ -124,14 +125,15 @@ body, html, .App, #root, .auth-wrapper {
   }
   .my-container .my-form {
     
-    height: 450px;
+    height: 500px;
     justify-content: flex-start;
     align-items: left;
     
     font-weight: 50;
     font-family: 'Fira Sans', sans-serif;
-    margin-top: 50px;
-    margin-left: 40px;
+    margin-top: 100px;
+    margin-left: 30px;
+    width: 90%;
     
   }
    .form-label {
@@ -141,12 +143,14 @@ body, html, .App, #root, .auth-wrapper {
     font-weight: 50;
     width: 10px;
     font-size: 17px;
+    font-weight:bold
   }
   .form1 input {
-    width: 240px;
+    width: 300px;
+    height:45px
   }
   .form-label .text-area {
-    width: 200px;;
+    width: 300px;;
     
   }
   .form-label .my-button {

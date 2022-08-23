@@ -69,7 +69,7 @@ export default function Experience() {
         </VerticalTimelineElement>
         <VerticalTimelineElement
           className="vertical-timeline-element--work"
-          contentStyle={{ background: "rgb(33, 150, 243)", color: "black" }}
+          contentStyle={{ background: "rgb(33, 150, 243)", color: "#fff" }}
           date="2022 - present"
           iconStyle={{ background: "rgb(233, 30, 99)", color: "#fff" }}
           icon={<SchoolIcon />}
