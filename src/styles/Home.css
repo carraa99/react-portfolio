@@ -3,7 +3,7 @@
     width: 100%;
     align-items: center;
     font-family: "Arial", sans-serif;
-   
+
   }
   
   .about {
@@ -37,14 +37,14 @@
     cursor: prompt;
   }
   
+
  
    .cards{
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
-  }
-  
+
    .card3 :hover{
     box-shadow: 5px 10px 10px 1px rgba(0,0,0,0.253)
   }
@@ -75,6 +75,7 @@
       margin-top: 30px;
 
     }
+
     .about h2 {
       font-size: 35px;
       flex-direction: column;
@@ -92,6 +93,7 @@
       font-size: 20px;
       width: 100%;
     }
+
     
   }
   
@@ -102,10 +104,36 @@
   }
   /* .card-img:hover {
     transform: scale(1.6);
-    
-  } */
+
   
    
 
+
+
+  
+  @media only screen and (max-width: 600px) {
+    .about h2 {
+      font-size: 40px;
+    }
+  
+    .about .prompt {
+      margin-top: 10px;
+      font-size: 20px;
+      width: 80%;
+    }
+  
+    
+  .cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .cards h3{
+    color: crimson;
+  }
+  .cards p{
+    font-weight: bold;
+  }
 
   

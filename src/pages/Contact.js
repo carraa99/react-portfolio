@@ -1,3 +1,4 @@
+
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Container, Button } from "react-bootstrap";
@@ -129,3 +130,10 @@ const Contact = () => {
   );
 };
 export default Contact;
+=======
+import React from "react";
+
+export default function Contact() {
+  return <div>Contact</div>;
+}
+

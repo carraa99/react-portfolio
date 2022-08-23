@@ -3,9 +3,14 @@
   background-color:lightGray;
 }
 
-.body {
+
+/* copied from another page */
+=======
+
+  
+body {
   padding:0;
   margin:0;
-  
+  background-color:lightGray;
+
 }
-/* copied from another page */

@@ -1,4 +1,5 @@
 import React from "react";
+
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -100,4 +101,9 @@ export default function Experience() {
       </VerticalTimeline>
     </div>
   );
+
+
+export default function Experience() {
+  return <div>Experience</div>;
+
 }
