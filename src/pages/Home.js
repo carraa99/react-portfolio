@@ -1,4 +1,5 @@
 import React from "react";
+// import ReactRoundedImage from "react-rounded-image";
 import LinkedInIcon from "@material-ui/icons/LinkedIn";
 import GithubIcon from "@material-ui/icons/GitHub";
 import Card from "react-bootstrap/Card";
@@ -8,11 +9,23 @@ import "../styles/Home.css";
 import frontend from "../assets/frontend.jpg";
 import backend from "../assets/backend.webp";
 import planguages from "../assets/planguages.webp";
+import me from "../assets/me.jpg";
 
 function Home() {
   return (
     <div className="home">
       <div className="about">
+        <img
+          src={me}
+          alt="MyPicture"
+          style={{
+            width: "250px",
+            height: "250px",
+            borderRadius: "50%",
+            padding: "1px",
+            border: "8px solid transparent",
+          }}
+        />
         <h2> Hi, My Name is Chera,</h2>
         <br /> <br />
         <div className="prompt">

@@ -19,10 +19,11 @@ const Contact = () => {
       .then(
         (result) => {
           console.log(result.text);
-          alert(result.text);
+          alert("Your message has been succesfully sent");
           return true;
         },
         (error) => {
+          console.log("the operation is not successful");
           console.log(error.text);
         }
       );
@@ -48,10 +49,6 @@ const Contact = () => {
               <br />
 
               <div className="form-label">
-                {/* <label>Subject: </label>
-                <input type="text" name="subject" placeholder="Subject" />
-                <br />
-                <br /> */}
                 <label>Subject: </label>
                 <input
                   type="text"
@@ -75,7 +72,7 @@ const Contact = () => {
                 <input
                   type="email"
                   name="email"
-                  placeholder="your email"
+                  placeholder="Your Email"
                   required
                 />
                 <br />
@@ -85,16 +82,20 @@ const Contact = () => {
 
                 <textarea
                   name="message"
-                  placeholder="your message"
+                  placeholder="Your Message"
                   className="text-area"
                   required
                 />
                 <br />
                 <br />
                 <br />
+                {/* <Button className="btn btn-success my-button btn-lg">
+                  <input type="submit" value="Send" />
+                </Button> */}
                 <Button
                   type="submit"
                   className="btn btn-success my-button btn-lg"
+                  // value="Send"
                 >
                   Send
                 </Button>
